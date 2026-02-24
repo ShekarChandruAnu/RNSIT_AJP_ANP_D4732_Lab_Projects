@@ -1,0 +1,42 @@
+Assignment
+1.	Define SQL Server Instance.
+2.	What does the master database contain?
+3.	What is the model database’s function?
+4.	What is the use of tempdb?
+5.	Which of the following statements are true about a normal subquery
+a.	The inner query executes first
+b.	The execution begins with the outer query
+c.	The result of the inner query is used by the outer query
+d.	The inner query is a complete query in its own right
+
+6)Create a query to fetch the data from ExternalCandidate table which shows the details of all the candidates whose sitestscore is lesser than the average sitestscore of all the External candidates(Use subquery)
+
+7)Create a query to fetch the data from External Candidate which shows the details of all candidates whose cstate is not in Kansas,Virginia,Georgia(Use Sub query)
+Create sample Supplier table SupId,SupName,SupPhone - Orders table Orderid,OrderDate,Supplierid
+8) Create a query to fetch the data joining Supplier table and Orders table (innerjoin)
+
+9) Create a query to fetch the data joining Supplier table and Orders table , all data from Customer table should be displayed and only related records from Orders table to be displayed(Use left outer join)
+
+10)Create a query to fetch the data joining Customer table and Orders table all data from Orders table and related from Customer table
+(HInt:use Right outer join
+
+11)Create a query to fetch the data from Department for those departments which have the Department Heads name starting with M
+
+12) Create a query which fetches the data about the PositionDescription from Position table for all those employees whose candidature was referred by Agencies
+(hint : use subqueries-> Use Position ,Externalcandidate and Employee table HR DB)
+
+13)Create a query to fetch the data of all employees whose position has Currentstrength greater than 50
+(Use Position & Employee Table -HR DB)  use subquery
+
+14) Create a query to fetch the position description details  for  the Candidates(ExternalCandidates) who are referred by the agencies(cagencycode) 
+(tables:position,external candidate,employee)
+
+15) Create query to fetch the employee skills for those external candidates who are refrred by Agencies(Use EmployeeSkill table along with Employee,Ext Candidate) 
+and Create query to fetch the employee skills for those candidates who are not referred by Agencies.
+
+
+
+
+
+
+
